@@ -1,7 +1,7 @@
 #include <Windows.h>
 
 int main() {
-    HWND hWnd = FindWindow(0, "ManipuleMe"); //Name of target process
+    HWND hWnd = FindWindow(0, "ManipuleIt"); //Name of target process
     if(hWnd == 0){ //If window doesn't exist
         MessageBox(0, "Pencere bulunamadi", "Hata", MB_OK|MB_ICONERROR); //Error window
     } else {
