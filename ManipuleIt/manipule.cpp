@@ -3,7 +3,7 @@
 #include <Windows.h>
 
 int main() {
-    SetConsoleTitleA("ManipuleMe");
+    SetConsoleTitleA("ManipuleIt");
     int a,b = 0;
     while(1){
         std::cin >> b;
